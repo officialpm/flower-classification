@@ -52,14 +52,14 @@ python train.py
 
 Set `FLOWER_DATA_DIR` and `FLOWER_OUTPUT_DIR` for other folders. The first run downloads ImageNet weights from the Keras distribution. It writes both checkpoints, validation/test probability arrays, per-class metrics, a checked prediction CSV and a manifest. Nothing submits automatically.
 
-`train.py` is a portable adaptation and has passed syntax checks, not a new full training run. The notebook calls the portable script so the executable source stays in one place. Exact GPU results may vary across versions and hardware.
+`train.py` is a portable adaptation and has passed syntax checks, not a new full training run. `workflow.ipynb` contains the full implementation in explained, executable cells, with the same code as `train.py`. Its code outputs are empty because the portable adaptation has not been retrained; historical measurements are labeled separately. Exact GPU results may vary across versions and hardware.
 
 ## Project map
 
 | File | Purpose |
 |---|---|
 | `train.py` | Portable GPU training and checked inference |
-| `workflow.ipynb` | Notebook entry point |
+| `workflow.ipynb` | Full, explained, cell-by-cell training and evaluation workflow |
 | `RESULTS.md` | Score ledger, measured environment and limits |
 | `requirements.txt` | TensorFlow pin and dependency ranges |
 | `LICENSE`, `NOTICE` | Code license and attribution |
