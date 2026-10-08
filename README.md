@@ -67,5 +67,3 @@ Original implementation and documentation: Parth Maniar. Apache-2.0 covers code,
 Schema and split layout were informed by Ryan Holbrook's Apache-2.0 starter; EfficientNet input scale and BatchNorm handling follow Keras documentation.
 
 [TensorFlow TFRecord guide](https://www.tensorflow.org/tutorials/load_data/tfrecord) | [Keras EfficientNet](https://keras.io/api/applications/efficientnet/) | [Transfer learning](https://keras.io/guides/transfer_learning/)
-
-The hosted notebook remains private; this public repository contains a separate cleaned source package and measured results, not a public hosted notebook.
