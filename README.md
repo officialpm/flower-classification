@@ -9,6 +9,8 @@ A GPU transfer-learning project for 104-class flower recognition. It compares a 
 
 This is an evaluated model workflow, not a deployed flower-identification product. A camera app or inference service is a possible future extension, not part of this release.
 
+![Project overview with measured results and workflow](project-overview.svg)
+
 ## Measured results
 
 | Model | Validation macro-F1 | Validation accuracy |
