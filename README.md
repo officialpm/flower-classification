@@ -23,6 +23,12 @@ The fine-tuned candidate scored **0.86708 public macro-F1** on October 7, 2026. 
 
 
 
+## Data exploration
+
+![Training row counts across all 104 flower classes](class-distribution.svg)
+
+Training-set counts from all 12,753 labeled images, across 104 class IDs. All classes are present, but their frequencies are uneven. That makes macro-F1 and per-class evaluation more informative than accuracy alone. Class IDs are the dataset labels; no invented species names or sample imagery are added.
+
 ## Workflow
 
 1. Verify TFRecord feature names, counts and all 104 training/validation classes.
